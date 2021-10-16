@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Tugas Individu 2</title>
+
+    <!--Masukan untuk style html dengan css-->
+    <link rel="stylesheet" type="text/css" href="HomepageStyle.css">
+
+    <a name="top"></a>
+    <header style="background-image: url(./header2.jpg);">
+        <img 
+            src="./LogoKursus.png"
+            alt="Logo Kursus"
+        />
+        <a style="font-size: 35px;">KURSUS BAHASA BERSAMA MS.HANA</a>
+    </header>
+
+</head>
+<body>
+    <!--container untuk background-->
+    <div class="container">
+    <h2>Daftar Jadwal Les Bahasa</h2>
+    <br>
+    <!--Tabel Jadwal Kursus-->
+    <table class="jadwal" cellspacing="25px">
+        <tr align="center">
+            <td>Paket</td>
+            <td>Bahasa</td>
+            <td>Hari</td>
+            <td>Jam Mulai</td>
+            <td>Jam Akhir</td>
+            <td>Harga</td>
+        </tr>
+
+        <tr>
+            <td>Paket A</td>
+            <td>Bahasa Inggris</td>
+            <td>Senin & Kamis</td>
+            <td>17.00</td>
+            <td>18.30</td>
+            <td>Rp 250.000</td>
+        </tr>
+
+        <tr>
+            <td>Paket B</td>
+            <td>Bahasa Inggris</td>
+            <td>Sabtu & Minggu</td>
+            <td>17.00</td>
+            <td>18.30</td>
+            <td>Rp 250.000</td>
+        </tr>
+
+        <tr>
+            <td>Paket C</td>
+            <td>Rabu & Jumat</td>
+            <td>Senin & Kamis</td>
+            <td>19.00</td>
+            <td>20.30</td>
+            <td>Rp 285.000</td>
+        </tr>
+
+        <tr>
+            <td>Paket D</td>
+            <td>Bahasa Jepang</td>
+            <td>Sabtu</td>
+            <td>09.00</td>
+            <td>11.00</td>
+            <td>Rp 285.000</td>
+        </tr>
+    </table>
+
+    <!--Membuat Tabel Formulir Pendaftaran-->
+    <h2>Tertarik? Daftar Sekarang Jugaa!!! Kuota Terbatas!!</h2>
+    <br>
+    <table class="form" cellspacing="10px">
+        <tr>
+            <td>
+                <label for="nama">Nama Pendaftar</label>
+            </td>
+            <td>
+                <input type="text" id="nama" name="nama" placeholder="Masukan Nama Anda">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email</label>
+            </td>
+            <td>
+                <input type="text" id="email" name="emai" placeholder="Masukan Email Anda">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="usia">Usia Anda</label>
+            </td>
+            <td>
+                <input type="text" id="usia" name="usia" placeholder="Masukan Usia Anda">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Paket">Pilihan Paket</label>
+            </td>
+            <td>
+                <select name="paket">
+                    <option value="Paket A">Paket A</option>
+                    <option value="Paket B">Paket B</option>
+                    <option value="Paket C">Paket C</option>
+                    <option value="Paket D">Paket D</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <form action="Pendaftar.html" method="GET" id="Submit">
+                    <input type="submit" name="tombol" value="Daftar"/>
+                </form>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <footer class="footer">
+        <a href='#top'> Back to Top Page </a>
+        <p>Copyright &#169 2021 - Hendamia Yohana Sembiring</p>
+    </footer>
+</body>
+</html>
